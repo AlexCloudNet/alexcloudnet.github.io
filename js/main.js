@@ -28,6 +28,6 @@ cnv2.style.background = 'transparent';
 let bg_arr = ['kora', 'les', 'tree', 'wasteland'];
 let bg_random = ()=>{ return Math.floor(Math.random() * (4 - 0)) + 0; }
 console.log(bg_arr[bg_random()]);
-document.body.style.backgroundImage = "url(C:/Users/thepo/Desktop/resume/img/"+bg_arr[bg_random()]+".jpg)";
-// document.body.style.backgroundImage = `url(C:/Users/thepo/Desktop/resume/img/${bg_arr[bg_random()]}.jpg)`;
+document.body.style.backgroundImage = "url(img/"+bg_arr[bg_random()]+".jpg)";
+
 
